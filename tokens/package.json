@@ -1,0 +1,10 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "token-transformer source/figma.json temp/figma-transformed.json && style-dictionary build"
+    },
+    "dependencies": {
+        "style-dictionary": "^3.7.2",
+        "token-transformer": "^0.0.29"
+    }
+}

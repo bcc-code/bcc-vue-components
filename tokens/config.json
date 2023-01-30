@@ -1,0 +1,17 @@
+{
+    "source": [
+        "temp/figma-transformed.json"
+    ],
+    "platforms": {
+        "css": {
+            "transformGroup": "css",
+            "buildPath": "output/",
+            "files": [
+                {
+                    "destination": "bcc-design-system-tokens.css",
+                    "format": "css/variables"
+                }
+            ]
+        }
+    }
+}

@@ -58,7 +58,7 @@ Example.args = {
   slotDefault: "Example Badge",
 };
 
-export const Types: StoryFn<typeof Badge> = () => ({
+export const Type: StoryFn<typeof Badge> = () => ({
   components: { Badge },
   template: `
     <div class="flex items-start space-x-2">

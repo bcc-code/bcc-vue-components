@@ -1,0 +1,64 @@
+@layer components {
+  .text-display-md {
+    @apply text-9xl leading-tight font-bold;
+  }
+  .text-display {
+    @apply text-8xl leading-tight font-bold;
+  }
+  .text-display-sm {
+    @apply text-7xl leading-tight font-bold;
+  }
+
+  .text-heading-lg {
+    @apply text-6xl leading-tight font-bold;
+  }
+  .text-heading-md {
+    @apply text-4xl leading-tight font-bold;
+  }
+  .text-heading {
+    @apply text-2xl leading-tight font-bold;
+  }
+  .text-heading-sm {
+    @apply text-xl leading-tight font-bold;
+  }
+
+  .text-title-lg {
+    @apply text-2xl leading-tight font-semibold;
+  }
+  .text-title-md {
+    @apply text-xl leading-tight font-semibold;
+  }
+  .text-title {
+    @apply text-base leading-tight font-semibold;
+  }
+
+  .text-subtitle-md {
+    @apply text-xl leading-tight font-medium;
+  }
+  .text-subtitle {
+    @apply text-base leading-tight font-medium;
+  }
+  .text-subtitle-sm {
+    @apply text-sm leading-snug font-medium;
+  }
+
+  .text-label-md {
+    @apply text-xl leading-none font-semibold;
+  }
+  .text-label {
+    @apply text-base leading-none font-semibold;
+  }
+  .text-label-sm {
+    @apply text-sm leading-none font-semibold;
+  }
+  .text-label-xs {
+    @apply text-xs leading-none font-semibold;
+  }
+
+  .caption-xs {
+    @apply text-xs leading-none font-medium;
+  }
+  .caption-xxs {
+    @apply text-xxs leading-none font-medium;
+  }
+}
